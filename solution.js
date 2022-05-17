@@ -26,7 +26,7 @@ console.log(typeof floatToNumber);
 
 
 
-//////////////////////////////////////
+
 //Pitfalls
 
 /* 1.1. Write code that checks if `"hello"` is NaN and print the result to the Terminal
@@ -49,7 +49,7 @@ console.log(`1.1-c: ${typeOfNan}`); //Number
 let num = 0.1 * 0.2;
 console.log(`2-a: Number is: ${num}`);
 
-const roundedNum = num.toFixed(2);
+const roundedNum = Number(num.toFixed(2));
 
 console.log(`2-b: The rounded number to two decimal places is: ${roundedNum}`);
 console.log(`2.c: The type of rounded number is: ${typeof roundedNum}`);
